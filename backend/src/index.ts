@@ -3,7 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import userRoutes from "./routes/user.routes";
 import { connectPostgres } from "./db/postgres";
-
+// main
 dotenv.config();
 const app = express();
 app.use(cors());
